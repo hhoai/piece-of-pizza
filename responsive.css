@@ -1,0 +1,47 @@
+/* mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    
+    .menu-container,
+    .about-container,
+    .contact-container {
+        margin: 0;
+        padding: 48px 15px;
+        width: 100%;
+    }
+
+    html {
+        font-size: 24px;
+    }
+
+    .see-the-menu {
+        display: none;
+    }
+
+    .open-hour {
+        padding: 5px;
+    }
+
+    button {
+        border-radius: 4px;
+        width:100%;
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    }
+}
+
+/* tablet: width >= 740px && < 1024px */
+@media only screen and (max-width: 63.9375em) and (min-width: 46.25em) {
+    .menu-container,
+    .about-container,
+    .contact-container {
+        margin: 0;
+        padding: 48px 20px;
+        width: 100%;
+    } 
+
+    button {
+        border-radius: 4px;
+        width:100%;
+        box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+        margin: auto;
+    }
+}
