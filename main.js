@@ -72,7 +72,7 @@ sendMessageBtn.onclick = function(e){
         clearTimeout(timeout);
     }
     timeout = setTimeout(()=> {
-        window.alert(`Cảm ơn ${formData.name} đã đặt bàn vào lúc ${formatDate(formData.orderDate)}.\nĐến đúng hẹn nhé!`)
+        window.alert(`Thanks for your order! \n Bon appetit!`)
     }, 100);
     clearInput();
     console.log(formData);
